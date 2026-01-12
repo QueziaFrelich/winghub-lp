@@ -13,49 +13,49 @@ type Ambiente = {
 const ambientes: Ambiente[] = [
   {
     title: "Ambientes Administrativos e Institucionais",
-    image: "/img/cards/ambientes1.png",
+    image: "/img/cards/ambientesA.png",
     shortDescription: "Espaços voltados à gestão pública.",
     fullDescription:
       "Projetados para garantir eficiência administrativa, integração entre equipes e conformidade institucional, promovendo ambientes funcionais e representativos.",
   },
   {
     title: "Equipamentos Públicos de Uso Coletivo",
-    image: "/img/cards/ambientes2.png",
+    image: "/img/cards/ambientesB.png",
     shortDescription: "Espaços de convivência e serviços.",
     fullDescription:
       "Ambientes que atendem grandes fluxos de pessoas, priorizando acessibilidade, conforto e durabilidade.",
   },
   {
     title: "Complexos Institucionais",
-    image: "/img/cards/ambientes3.png",
+    image: "/img/cards/ambientesC.png",
     shortDescription: "Grandes estruturas públicas.",
     fullDescription:
       "Integração de múltiplos serviços institucionais em um único espaço.",
   },
   {
     title: "Ambientes de Atendimento ao Cidadão",
-    image: "/img/cards/ambientes4.png",
+    image: "/img/cards/ambientesD.png",
     shortDescription: "Atendimento direto ao público.",
     fullDescription:
       "Projetados para acolhimento, acessibilidade e eficiência no atendimento.",
   },
   {
     title: "Ambientes Educacionais e de Capacitação",
-    image: "/img/cards/ambientes5.png",
+    image: "/img/cards/ambientesF.png",
     shortDescription: "Educação e formação.",
     fullDescription:
       "Espaços voltados à capacitação contínua, aprendizagem e desenvolvimento institucional.",
   },
   {
     title: "Ambientes Técnicos, Operacionais e de Apoio",
-    image: "/img/cards/ambientes6.png",
+    image: "/img/cards/ambientesG.png",
     shortDescription: "Operação e suporte.",
     fullDescription:
       "Ambientes técnicos essenciais para o funcionamento e suporte das operações públicas.",
   },
   {
     title: "Ambientes de Convivência e Integração",
-    image: "/img/cards/ambientes7.png",
+    image: "/img/cards/ambientesH.png",
     shortDescription: "Integração entre pessoas.",
     fullDescription:
       "Espaços pensados para convivência, integração social e bem-estar.",
