@@ -13,7 +13,7 @@ type Ambiente = {
 const ambientes: Ambiente[] = [
   {
     title: "Ambientes Administrativos e Institucionais",
-    image: "/img/cards/ambientesA.png",
+    image: "/img/cards/AmbientesA1.png",
     shortDescription: "Espaços voltados à gestão pública.",
     fullDescription:
       "Projetados para garantir eficiência administrativa, integração entre equipes e conformidade institucional, promovendo ambientes funcionais e representativos.",
