@@ -41,12 +41,7 @@ export default function Header() {
         </nav>
 
         {/* Botão Entrar */}
-        <Link
-          href="/login"
-          className="rounded-full bg-[#4BB37C] px-6 py-2 text-sm font-semibold text-white transition hover:bg-[#43a97a]"
-        >
-          Entrar
-        </Link>
+        
       </div>
     </header>
   )

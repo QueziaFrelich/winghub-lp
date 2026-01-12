@@ -29,8 +29,8 @@ export default function Footer() {
                         {/* Email */}
                         <li className="flex items-center gap-2">
                             <Envelope size={20} weight="regular" />
-                            <a href="mailto:mail@mail.com" className="hover:underline">
-                                mail@mail.com
+                            <a href="mailto:info@winghub.io" className="hover:underline">
+                                info@winghub.io
                             </a>
                         </li>
                     </ul>
@@ -38,10 +38,10 @@ export default function Footer() {
 
                 {/* Redes sociais */}
                 <div className="flex gap-4">
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/winghub_io/" target="_blank" rel="noopener noreferrer">
                         <InstagramLogo size={28} weight="fill" className="hover:text-green-400 transition" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/winghub" target="_blank" rel="noopener noreferrer">
                         <LinkedinLogo size={28} weight="fill" className="hover:text-green-400 transition" />
                     </a>
                 </div>

@@ -32,7 +32,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="w-full bg-[#5D3171] py-20">
+    <section id="beneficios" className="w-full bg-[#5D3171] py-20">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Título */}

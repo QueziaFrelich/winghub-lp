@@ -69,7 +69,7 @@ export default function AmbientesSection() {
   const bottomRow = ambientes.slice(4);
 
   return (
-    <section className="bg-[#5D3171] py-20 text-white">
+    <section id="ambientes" className="bg-[#5D3171] py-20 text-white">
       <div className="mx-auto max-w-7xl px-6">
         {/* Título */}
         <div className="mb-14">
@@ -107,6 +107,22 @@ export default function AmbientesSection() {
           ))}
         </div>
       </div>
+
+     <div className="flex flex-col items-center px-50 mt-20 gap-3">
+  <img
+    src="/img/apoio/icon.png"
+    alt="Exemplo"
+    className="h-10 w-30 object-contain"
+  />
+
+  <p className="text-white text-center">
+    O WingHub foi concebido para apoiar a <span className="font-bold text-[#64BD8E]">gestão integrada, inteligente e orientada à 
+      governança dos ambientes do setor público</span>, considerando a diversidade de usos, perfis de usuários, vínculos administrativos e requisitos legais. 
+  </p>
+  <p className=" text-white text-center">
+A plataforma permite que diferentes tipos de espaços sejam tratados como ativos públicos estratégicos, promovendo <span className="font-bold text-[#64BD8E]">
+   eficiência operacional, transparência, melhor experiência para cidadãos e servidores e apoio à tomada de decisão.  </span></p>
+</div>
     </section>
   );
 }

@@ -8,7 +8,7 @@ export default function Features() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="w-full bg-[#5D3171] py-20">
+    <section id="funcionalidades" className="w-full bg-[#5D3171] py-20">
   <div className="mx-auto max-w-7xl px-6 md:grid md:grid-cols-2 md:gap-12 flex flex-col md:flex-row">
     
     {/* Accordion */}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="w-full bg-[#5D3171] py-20">
+    <section id="sobre" className="w-full bg-[#5D3171] py-20">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
         
         {/* Lado esquerdo */}
