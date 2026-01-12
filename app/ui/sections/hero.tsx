@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section
-      className="relative flex min-h-[90vh] w-full items-center bg-cover bg-center"
+      className="relative flex min-h-[90vh] mt-10 w-full items-center bg-cover bg-center"
       style={{
         backgroundImage: "url('/img/apoio/hero.png')",
       }}
@@ -33,12 +33,12 @@ export default function Hero() {
 
           {/* Botão */}
           <div className="mt-8">
-            <Link
+            <a
               href="#contato"
               className="inline-flex items-center justify-center rounded-full bg-[#4FB286] px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#43a97a]"
             >
               FALE CONOSCO
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const navItems = [
 
 export default function Header() {
   return (
-    <header className="w-full bg-[#5D3171]">
+    <header className="fixed top-0 w-full bg-[#5D3171] z-50">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         
         {/* Logo */}

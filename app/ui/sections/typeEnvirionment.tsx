@@ -13,49 +13,49 @@ type Ambiente = {
 const ambientes: Ambiente[] = [
   {
     title: "Ambientes Administrativos e Institucionais",
-    image: "/img/apoio/ambientes1.png",
+    image: "/img/cards/ambientes1.png",
     shortDescription: "Espaços voltados à gestão pública.",
     fullDescription:
       "Projetados para garantir eficiência administrativa, integração entre equipes e conformidade institucional, promovendo ambientes funcionais e representativos.",
   },
   {
     title: "Equipamentos Públicos de Uso Coletivo",
-    image: "/img/apoio/ambientes2.png",
+    image: "/img/cards/ambientes2.png",
     shortDescription: "Espaços de convivência e serviços.",
     fullDescription:
       "Ambientes que atendem grandes fluxos de pessoas, priorizando acessibilidade, conforto e durabilidade.",
   },
   {
     title: "Complexos Institucionais",
-    image: "/img/apoio/ambientes3.png",
+    image: "/img/cards/ambientes3.png",
     shortDescription: "Grandes estruturas públicas.",
     fullDescription:
       "Integração de múltiplos serviços institucionais em um único espaço.",
   },
   {
     title: "Ambientes de Atendimento ao Cidadão",
-    image: "/img/apoio/ambientes4.png",
+    image: "/img/cards/ambientes4.png",
     shortDescription: "Atendimento direto ao público.",
     fullDescription:
       "Projetados para acolhimento, acessibilidade e eficiência no atendimento.",
   },
   {
     title: "Ambientes Educacionais e de Capacitação",
-    image: "/img/apoio/ambientes5.png",
+    image: "/img/cards/ambientes5.png",
     shortDescription: "Educação e formação.",
     fullDescription:
       "Espaços voltados à capacitação contínua, aprendizagem e desenvolvimento institucional.",
   },
   {
     title: "Ambientes Técnicos, Operacionais e de Apoio",
-    image: "/img/apoio/ambientes6.png",
+    image: "/img/cards/ambientes6.png",
     shortDescription: "Operação e suporte.",
     fullDescription:
       "Ambientes técnicos essenciais para o funcionamento e suporte das operações públicas.",
   },
   {
     title: "Ambientes de Convivência e Integração",
-    image: "/img/apoio/ambientes7.png",
+    image: "/img/cards/ambientes7.png",
     shortDescription: "Integração entre pessoas.",
     fullDescription:
       "Espaços pensados para convivência, integração social e bem-estar.",
@@ -110,7 +110,7 @@ export default function AmbientesSection() {
 
      <div className="flex flex-col items-center px-50 mt-20 gap-3">
   <img
-    src="/img/apoio/icon.png"
+    src="/img/logo/icon.png"
     alt="Exemplo"
     className="h-10 w-30 object-contain"
   />
