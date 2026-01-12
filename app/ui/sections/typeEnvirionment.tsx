@@ -20,42 +20,42 @@ const ambientes: Ambiente[] = [
   },
   {
     title: "Equipamentos Públicos de Uso Coletivo",
-    image: "/img/cards/ambientesB.png",
+    image: "/img/cards/AmbientesB.png",
     shortDescription: "Espaços de convivência e serviços.",
     fullDescription:
       "Ambientes que atendem grandes fluxos de pessoas, priorizando acessibilidade, conforto e durabilidade.",
   },
   {
     title: "Complexos Institucionais",
-    image: "/img/cards/ambientesC.png",
+    image: "/img/cards/AmbientesC.png",
     shortDescription: "Grandes estruturas públicas.",
     fullDescription:
       "Integração de múltiplos serviços institucionais em um único espaço.",
   },
   {
     title: "Ambientes de Atendimento ao Cidadão",
-    image: "/img/cards/ambientesD.png",
+    image: "/img/cards/AmbientesD.png",
     shortDescription: "Atendimento direto ao público.",
     fullDescription:
       "Projetados para acolhimento, acessibilidade e eficiência no atendimento.",
   },
   {
     title: "Ambientes Educacionais e de Capacitação",
-    image: "/img/cards/ambientesF.png",
+    image: "/img/cards/AmbientesF.png",
     shortDescription: "Educação e formação.",
     fullDescription:
       "Espaços voltados à capacitação contínua, aprendizagem e desenvolvimento institucional.",
   },
   {
     title: "Ambientes Técnicos, Operacionais e de Apoio",
-    image: "/img/cards/ambientesG.png",
+    image: "/img/cards/AmbientesG.png",
     shortDescription: "Operação e suporte.",
     fullDescription:
       "Ambientes técnicos essenciais para o funcionamento e suporte das operações públicas.",
   },
   {
     title: "Ambientes de Convivência e Integração",
-    image: "/img/cards/ambientesH.png",
+    image: "/img/cards/AmbientesH.png",
     shortDescription: "Integração entre pessoas.",
     fullDescription:
       "Espaços pensados para convivência, integração social e bem-estar.",
@@ -110,7 +110,7 @@ export default function AmbientesSection() {
 
      <div className="flex flex-col items-center px-50 mt-20 gap-3">
   <img
-    src="/img/logo/icon.png"
+    src="/img/logo/icon-branco.png"
     alt="Exemplo"
     className="h-10 w-30 object-contain"
   />
