@@ -15,16 +15,18 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-[#5D3171] z-50">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-        
+
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <Image
-            src="/img/logo/logoBranco.png"
-            alt="WingHub"
-            width={180}
-            height={42}
-            priority
-          />
+          <a href="#">
+            <Image
+              src="/img/logo/logoBranco.png"
+              alt="WingHub"
+              width={180}
+              height={42}
+              priority
+            />
+          </a>
         </div>
 
         {/* Navegação */}
@@ -41,7 +43,7 @@ export default function Header() {
         </nav>
 
         {/* Botão Entrar */}
-        
+
       </div>
     </header>
   )

@@ -108,7 +108,7 @@ export default function AmbientesSection() {
         </div>
       </div>
 
-     <div className="flex flex-col items-center px-50 mt-20 gap-3">
+     <div className="flex flex-col items-center px-5 md:px-50 mt-10 md:mt-20 gap-3">
   <img
     src="/img/logo/icon-branco.png"
     alt="Exemplo"

@@ -62,7 +62,7 @@ export default function ContactSection() {
             Transforme seus <br></br>espaços conosco!
           </h2>
           <p className="text-gray-500 max-w-md">
-            Preencha o formulário com suas informações e entraremos em contacto.
+            Preencha o formulário com suas informações e entraremos em contato.
           </p>
         </div>
 
