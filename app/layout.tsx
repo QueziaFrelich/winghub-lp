@@ -19,7 +19,7 @@ const ubuntu = Ubuntu({
 
 export const metadata: Metadata = {
   title: "WingHub",
-  description: "Gestão inteligente de espaços e conexões",
+  description: "Gestão Inteligente de Ambientes para o Setor Público",
 };
 
 export default function RootLayout({
